@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,18 +16,18 @@
         <header id="header">
             <div class="header-section" id="top">
                 <div id="search-section">
-                    <img src="./Icons/magnify.svg" width="30px" alt="search-icon">
-                    <input id="search-bar" type="text" placeholder="Search..">
+                    <img id="search-icon" src="./Icons/magnify.svg" width="30px" alt="search-icon">
+                    <input id="search-bar" type="text" placeholder="">
                 </div>
                 <div id="profile">
-                    <img src="./Icons/bell-outline.svg" width="30px" alt="notifications">
+                    <img class="icons" src="./Icons/bell-outline.svg" width="30px" alt="notifications">
                     <img src="./Icons/avatar-1295430_1280.png" width="40px" alt="profile-pic">
                     <div class="username"> Jack MeHoff</div>
                 </div>
             </div>
             <div class="header-section" id="bottom">
                 <div id="username-section">
-                    <img src="./Icons/avatar-1295430_1280.png" width="40px" alt="user-pic">
+                    <img src="./Icons/avatar-1295430_1280.png" width="60px" alt="user-pic">
                     <div class="greeting"> Hi there,</div>
                     <div class="username"> Jack MeHoff (@JackMeHoff)</div>
                 </div>
@@ -37,51 +40,51 @@
         </header>
         <nav id="side-bar">
             <div id="title-section">
-                <img src="./Icons/view-dashboard.svg" width="60px" alt="dashboard logo">
+                <img class="icons" src="./Icons/view-dashboard.svg" width="60px" alt="dashboard logo">
                 <div id="title">Dashboard</div>
             </div>
             <div id="tabs">
                 <div class="tab">
-                    <img src="./Icons/home.svg" width="30px" alt="home">
+                    <img class="icons" src="./Icons/home.svg" width="30px" alt="home">
                     <div class="home-text"> Home</div>
                 </div>
                 <div class="tab">
-                    <img src="./Icons/calendar-check.svg" width="30px" alt="profile">
+                    <img class="icons" src="./Icons/calendar-check.svg" width="30px" alt="profile">
                     <div class="profile-text">Profile</div>
                 </div>
                 <div class="tab">
-                    <img src="./Icons/message.svg" width="30px" alt="messages">
+                    <img class="icons" src="./Icons/message.svg" width="30px" alt="messages">
                     <div class="messages-text">Messages</div>
                 </div>
                 <div class="tab">
-                    <img src="./Icons/history.svg" width="30px" alt="history">
+                    <img class="icons" src="./Icons/history.svg" width="30px" alt="history">
                     <div class="history-text">History</div>
                 </div>
                 <div class="tab">
-                    <img src="./Icons/note-multiple.svg" width="30px" alt="tasks">
+                    <img class="icons" src="./Icons/note-multiple.svg" width="30px" alt="tasks">
                     <div class="tasks">Tasks</div>
                 </div>
                 <div class="tab">
-                    <img src="./Icons/account-group.svg" width="30px" alt="communities">
+                    <img class="icons" src="./Icons/account-group.svg" width="30px" alt="communities">
                     <div class="communities-text">Communities</div>
                 </div>
                 <div class="tab" id="settings">
-                    <img src="./Icons/cog.svg" width="30px" alt="settings">
+                    <img class="icons" src="./Icons/cog.svg" width="30px" alt="settings">
                     <div class="settings-text">Settings</div>
                 </div>
                 <div class="tab">
-                    <img src="./Icons/help-box.svg" width="30px" alt="help">
+                    <img class="icons" src="./Icons/help-box.svg" width="30px" alt="help">
                     <div class="help-text">Help</div>
                 </div>
                 <div class="tab">
-                    <img src="./Icons/shield-check.svg" width="30px" alt="privacy">
+                    <img class="icons" src="./Icons/shield-check.svg" width="30px" alt="privacy">
                     <div class="privacy-text">Privacy</div>
                 </div>
             </div>
         </nav>
         <div id="main">
             <div id="main-cards">
-                <div class="title">Your Projects</div>
+                <div class="main-cards-title">Your Projects</div>
                 <div id="card-section">
                     <div class="card">
                         <div class="text">
@@ -152,7 +155,7 @@
                     <div class="card">
                         <div class="text">
                             <div class="title">Toes</div>
-                            <div class="text-body">It's embarasing to keep hoping that something else better will just
+                            <div class="text-body">It's embarasing to keep hoping that something else will just
                                 come up for me.</div>
                         </div>
                         <div class="buttons">
@@ -169,14 +172,14 @@
                 <div class="title">Announcements</div>
                 <div class="announcements">
                     <div class="announcements-cards">
-                        <div class="sub-title">I </div>
+                        <div class="sub-title">I hate this job!</div>
                         <div class="sub-text">It is ruinning my health. Mentally and physiaclly.</div>
                     </div>
                     <div class="announcements-cards">
                         <div class="sub-title">I hate living, here!</div>
                         <div class="sub-text">I have no friends I care about.</div>
                     </div>
-                    <div class="announcements-cards">
+                    <div class="announcements-cards-last">
                         <div class="sub-title">I wan't more out of life!</div>
                         <div class="sub-text">I wan't to like the 8 hours I spend working!</div>
                     </div>
@@ -186,7 +189,7 @@
                 <div class="title">Trending</div>
                 <div class="trending">
                     <div class="trending-cards">
-                        <img class="cards-pic" src="./Icons/avatar-1606914_1280.png" width="40px" alt="profile-pic">
+                        <img class="cards-pic" src="./Icons/avatar-1295430_1280.png" width="40px" alt="profile-pic">
                         <div class="sub-title">@assMuncher</div>
                         <div class="sub-text">Ass Eater</div>
                     </div>
@@ -208,5 +211,6 @@
                 </div>
             </div>
         </div>
+        <footer>Visar Marku</footer>
     </div>
 </body>
